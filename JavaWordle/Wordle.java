@@ -161,7 +161,7 @@ public class Wordle extends JFrame {
 
            SwingUtilities.invokeLater(() -> {
                for (int i = 0; i < lengthOfWord; i++) {
-                   wordleGrid[currentRow][i].reset();
+                   wordleGrid[currentRow][i].resetColorOnly();
                }
            });
        }).start(); 

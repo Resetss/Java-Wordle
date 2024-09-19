@@ -14,9 +14,6 @@ import javax.swing.JDialog;
 import javax.swing.JPanel;
 import javax.swing.border.LineBorder;
 
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-
 public class GameOverBox extends JDialog {
 
     private static final long serialVersionUID = 1L;

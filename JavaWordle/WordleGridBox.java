@@ -61,6 +61,10 @@ public class WordleGridBox extends JTextField {
 		setBackground(Color.RED);
 	}
 	
+	public void resetColorOnly() {
+		setBackground(Color.DARK_GRAY);
+	}
+	
 	public void reset() {
 		setText(""); 
 		setBackground(Color.DARK_GRAY);
